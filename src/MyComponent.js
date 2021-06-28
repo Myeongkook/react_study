@@ -1,28 +1,28 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { useState } from "react";
 
-class MyComponent extends Component {
-  static propTypes = {
-    favoriteNumber: PropTypes.number.isRequired,
-  };
-  render() {
-    const { name, favoriteNumber, children } = this.props;
-    return (
-      <div>
-        안녕하세요, 제 이름은 {name}입니다. <br />
-        children 값은 {children}
-        입니다.
-        <br />
-        제가 좋아하는 숫자는 {favoriteNumber}입니다.
-      </div>
-    );
-  }
-}
-MyComponent.defaultProps = {
-  name: "기본 이름",
+const MyComponent = () => {
+  const [Message, setMessage] = useState("");
+  const [color, setColor] = useState("black");
+  const helloHandler = () => setMessage("안녕");
+  return (
+    <div>
+      <button onClick={helloHandler}>입장</button>
+      <button onClick={() => setMessage("안녕히가세요")}>퇴장</button>
+      <br />
+      <h1 style={{ color }}>{Message}</h1>
+      <br />
+      <button onClick={() => setColor("green")}>초록색</button>
+      <button onClick={() => setColor("orange")}>주황색</button>
+      <button
+        onClick={() => {
+          setColor("red");
+          console.log({ color });
+        }}
+      >
+        빨간색
+      </button>
+    </div>
+  );
 };
 
-MyComponent.propTypes = {
-  name: PropTypes.string,
-};
 export default MyComponent;
