@@ -9,6 +9,7 @@
 6. <a href="https://www.notion.so/6-Component-Iteration-c1926d65fd5343a8a8799002b216235f">Component iteration</a>
 7. <a href="https://www.notion.so/7-React-Lifecycle-Methods-7d186084408a4e8e897c7264d597f336">React Lifecycle Methods</a>
 8. <a href="https://www.notion.so/8-Hooks-0c3d6491bf8d4151a8e0933283cb58d6">Hooks</a>
-9. <a href="https://www.notion.so/9-Component-Styling-903c85a204494165921240a9174bd8da">**Component Styling**</a> 🔥🔥
+9. <a href="https://www.notion.so/9-Component-Styling-903c85a204494165921240a9174bd8da">Component Styling</a> 
+10. <a href="https://www.notion.so/10-Todo-Application-f879d24862b8426b944b398464538671">**Todo Application**</a> 🔥🔥
 
 잘못 정리한것은 알려주세요 😄
